@@ -28,7 +28,7 @@ export default function Contact() {
           method="POST"
           className="flex flex-col space-y-4"
         >
-          {/* Name */}
+          
           <input
             type="text"
             name="name"
@@ -43,7 +43,7 @@ export default function Contact() {
             "
           />
 
-          {/* Email */}
+         
           <input
             type="email"
             name="email"
@@ -58,7 +58,7 @@ export default function Contact() {
             "
           />
 
-          {/* Message */}
+          
           <textarea
             name="message"
             rows="5"
@@ -73,7 +73,6 @@ export default function Contact() {
             "
           />
 
-          {/* Submit */}
           <button
             type="submit"
             className="

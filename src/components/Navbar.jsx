@@ -9,12 +9,12 @@ export default function Navbar() {
   return (
     <nav className="fixed w-full bg-gray-100 dark:bg-gray-800 backdrop-blur z-50 text-gray-800 dark:text-white">
       <div className="container mx-auto flex items-center justify-between p-4">
-        {/* Logo */}
+       
         <h1 className="text-2xl font-bold cursor-pointer transition-colors duration-200 hover:text-secondary">
           MyPortfolio
         </h1>
 
-        {/* Mobile menu toggle */}
+        
         <div className="md:hidden">
           <button
             onClick={() => setOpen(!open)}
@@ -25,7 +25,7 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* Links */}
+      
         <ul
           className={`
             md:flex md:items-center md:space-x-6

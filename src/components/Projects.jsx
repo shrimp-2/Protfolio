@@ -5,7 +5,7 @@ const projects = [
   {
     title: 'Portfolio Website',
     desc: 'A personal developer portfolio built with React, Tailwind CSS, and Framer Motion.',
-    link: 'https://yourportfolio.com'
+    link: 'https://protfolio-five-gules.vercel.app/'
   },
   {
     title: 'Bus Ticketing website',

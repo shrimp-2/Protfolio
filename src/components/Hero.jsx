@@ -20,7 +20,6 @@ export default function Hero() {
         text-gray-800 dark:text-white
       "
     >
-      {/* Profile Photo */}
       <motion.img
         src={profilePic}
         alt="Suresh Bhujel"
@@ -30,7 +29,7 @@ export default function Hero() {
         className="w-32 h-32 rounded-full mb-6 border-4 border-primary"
       />
 
-      {/* Name */}
+      
       <motion.h1
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -40,7 +39,7 @@ export default function Hero() {
         Hi, I’m Suresh Bhujel
       </motion.h1>
 
-      {/* Subtitle */}
+      
       <motion.p
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -50,7 +49,7 @@ export default function Hero() {
         Full‑Stack Developer | Crafting modern, scalable apps with React, Node.js & MongoDB.
       </motion.p>
 
-      {/* Tech Icons */}
+      
       <motion.div
         initial={{ scale: 0 }}
         animate={{ rotate: 360, scale: 1 }}
@@ -63,7 +62,7 @@ export default function Hero() {
         <FaDatabase />
       </motion.div>
 
-      {/* Download Resume */}
+      
       <motion.a
         href={resumePDF}
         download="Suresh_Bhujel_Resume.pdf"
@@ -82,7 +81,7 @@ export default function Hero() {
         Download Resume
       </motion.a>
 
-      {/* Scroll‑Down Indicator */}
+      
       <motion.div
         animate={{ y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 2 }}
